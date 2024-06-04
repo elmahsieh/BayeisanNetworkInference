@@ -4,6 +4,7 @@ Partner Name: Emily de la Cruz
 
 ## Command Lines 
 java BayesianNetworkInference enumeration <XMLBIF_filename> <queryVariable> [<evidenceVariable>=<value> ...]
+
 java BayesianNetworkInference rejection <numSamples> <XMLBIF_filename> <queryVariable> [<evidenceVariable>=<value> ...]
 
 ## IMPORTANT -- Experimental Work
