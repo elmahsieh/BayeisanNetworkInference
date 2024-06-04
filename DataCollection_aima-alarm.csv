@@ -1,0 +1,68 @@
+File Name:	aima-alarm.xml	Sample size needed for accurate algorithm: 250~500							
+														
+Query Variable:	B			Query Variable:	A			Query Variable:	J			Query VariableM
+														
+Evidence Variable:	E= TRUE			Evidence Variable:	M= TRUE			Evidence Variable:	B= FALSE	Evidence Variable:	E= FALSE	
+	A = TRUE				B= FALSE				 A= TRUE				A= FALSE	
+														
+Enumeration:	TRUE	0.0010000		Enumeration:	TRUE	0.9500000		Enumeration:	TRUE	0.9000000	Enumeration:	TRUE	0.7000000
+	FALSE	0.9990000			FALSE	0.0500000			FALSE	0.1000000			FALSE	0.3000000
+														
+Rejection:	TRUE	0.0000000		Rejection:	TRUE	0.9700000		Rejection:	TRUE	0.8800000	Rejection:	TRUE	0.6700000
+	FALSE	1.0000000			FALSE	0.0300000			FALSE	0.1200000			FALSE	0.3300000
+														
+Sample Size:	500			Sample Size:	100			Sample Size:	100			Sample Size:	100	
+														
+Absolute Difference:	TRUE	0.001		Absolute Difference:	TRUE	0.02		Absolute Difference:	TRUE	0.02	Absolute Difference:	TRUE	0.03
+	FALSE	0.001			FALSE	0.02			FALSE	0.02			FALSE	0.03
+														
+														
+Query Variable:	B			Query Variable:	A			Query Variable:	J			Query VariableM
+														
+Evidence Variable:	E= TRUE			Evidence Variable:	M= TRUE			Evidence Variable:	B= FALSE	Evidence Variable:	E= FALSE	
+	J = FALSE				B= FALSE				 A= TRUE				A= FALSE	
+														
+Enumeration:	TRUE	0.0010000		Enumeration:	TRUE	0.9500000		Enumeration:	TRUE	0.9000000	Enumeration:	TRUE	0.7000000
+	FALSE	0.9990000			FALSE	0.0500000			FALSE	0.1000000			FALSE	0.3000000
+														
+Rejection:	TRUE	0.0010000		Rejection:	TRUE	0.9440000		Rejection:	TRUE	0.9040000	Rejection:	TRUE	0.6920000
+	FALSE	0.9990000			FALSE	0.0560000			FALSE	0.0960000			FALSE	0.3080000
+														
+Sample Size:	500			Sample Size:	250			Sample Size:	500			Sample Size:	250	
+														
+Absolute Difference:	TRUE	0		Absolute Difference:	TRUE	0.006		Absolute Difference:	TRUE	0.004	Absolute Difference:	TRUE	0.008
+	FALSE	0			FALSE	0.006			FALSE	0.004			FALSE	0.008
+														
+														
+Query Variable:	B													
+														
+Evidence Variable:	E= TRUE													
+	J = FALSE													
+														
+Enumeration:	TRUE	0.0010000												
+	FALSE	0.9990000												
+														
+Rejection:	TRUE	0.0020000												
+	FALSE	0.9980000												
+														
+Sample Size:	500													
+														
+Absolute Difference:	TRUE	0.001												
+	FALSE	0.001												
+														
+														
+Query Variable:	B													
+														
+Evidence Variable:	A= FALSE													
+	M= TRUE													
+														
+Enumeration:	TRUE	0.0010000												
+	FALSE	0.9990000												
+														
+Rejection:	TRUE	0.0000000												
+	FALSE	1.0000000												
+														
+Sample Size:	500													
+														
+Absolute Difference:	TRUE	0.001												
+	FALSE	0.001

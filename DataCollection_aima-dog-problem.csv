@@ -1,0 +1,68 @@
+File Name:	dog-problem.xml	Sample size needed for accurate algorithm: 250~750							
+														
+Query Variable:	light-on			Query Variable:	dog-out			Query Variable:	hear-bark			Query Variable:	bowel-problem	
+														
+Evidence Variable:	bowel-problem= TRUE			Evidence Variable:	light-on= FALSE			Evidence Variable:	dog-out= TRUE			Evidence Variable:	hear-bark= TRUE	
+	dog-out= FALSE				family-out= FALSE				bowel-problem= TRUE			family-out= TRUE	
+														
+Enumeration:	TRUE	0.6000000		Enumeration:	TRUE	0.9900000		Enumeration:	TRUE	0.7000000	Enumeration:	TRUE	0.0100000
+	FALSE	0.4000000			FALSE	0.0100000			FALSE	0.3000000			FALSE	0.9900000
+														
+Rejection:	TRUE	0.5600000		Rejection:	TRUE	0.9960000		Rejection:	TRUE	0.6900000	Rejection:	TRUE	0.0080000
+	FALSE	0.4400000			FALSE	0.0040000			FALSE	0.3100000			FALSE	0.9920000
+														
+Sample Size:	100			Sample Size:	250			Sample Size:	100			Sample Size:	250	
+														
+Absolute Difference:	TRUE	0.04		Absolute Difference:	TRUE	0.006		Absolute Difference:	TRUE	0.01	Absolute Difference:	TRUE	0.002
+	FALSE	0.04			FALSE	0.006			FALSE	0.01			FALSE	0.002
+														
+														
+Query Variable:	light-on			Query Variable:	dog-out			Query Variable:	hear-bark			
+														
+Evidence Variable:	bowel-problem= TRUE			Evidence Variable:	light-on= FALSE			Evidence Variable:	dog-out= TRUE					
+	dog-out= FALSE				family-out= FALSE				bowel-problem= TRUE			
+														
+Enumeration:	TRUE	0.6000000		Enumeration:	TRUE	0.9900000		Enumeration:	TRUE	0.7000000	
+	FALSE	0.4000000			FALSE	0.0100000			FALSE	0.3000000				
+														
+Rejection:	TRUE	0.5720000		Rejection:	TRUE	0.9840000		Rejection:	TRUE	0.7160000	
+	FALSE	0.4280000			FALSE	0.0160000			FALSE	0.2840000				
+														
+Sample Size:	250			Sample Size:	500			Sample Size:	250					
+														
+Absolute Difference:	TRUE	0.028		Absolute Difference:	TRUE	0.006		Absolute Difference:	TRUE	0.016	
+	FALSE	0.028			FALSE	0.006			FALSE	0.016				
+														
+														
+Query Variable:	light-on							Query Variable:	hear-bark				
+														
+Evidence Variable:	bowel-problem= TRUE							Evidence Variable:	dog-out= TRUE	
+	dog-out= FALSE								bowel-problem= TRUE					
+														
+Enumeration:	TRUE	0.6000000						Enumeration:	TRUE	0.7000000			
+	FALSE	0.4000000							FALSE	0.3000000				
+														
+Rejection:	TRUE	0.6200000						Rejection:	TRUE	0.7060000			
+	FALSE	0.3800000							FALSE	0.2940000				
+														
+Sample Size:	500							Sample Size:	500					
+														
+Absolute Difference:	TRUE	0.02						Absolute Difference:	TRUE	0.006			
+	FALSE	0.02							FALSE	0.006				
+														
+														
+Query Variable:	light-on													
+														
+Evidence Variable:	bowel-problem= TRUE												
+	dog-out= FALSE													
+														
+Enumeration:	TRUE	0.6000000												
+	FALSE	0.4000000												
+														
+Rejection:	TRUE	0.6066667												
+	FALSE	0.3933333												
+														
+Sample Size:	750													
+														
+Absolute Difference:	TRUE	0.006666666667												
+	FALSE	0.006666666667		

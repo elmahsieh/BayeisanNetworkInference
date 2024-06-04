@@ -1,0 +1,51 @@
+File Name: 	aima-wet-grass.xml	Sample size needed for accurate algorithm: 500~1000						
+														
+Query Variable:	C			Query Variable:	S			Query Variable:	W			Query VariableR
+														
+Evidence Variable:	S= TRUE			Evidence Variable:	R= TRUE			Evidence Variable:	C= TRUE		Evidence Variable:	S= TRUE	
+	R = TRUE				W= FALSE				S= FALSE				C= FALSE	
+														
+Enumeration:	TRUE	0.5000000		Enumeration:	TRUE	0.1000000		Enumeration:	TRUE	0.9900000	Enumeration:	TRUE	0.8000000
+	FALSE	0.5000000			FALSE	0.9000000			FALSE	0.0100000			FALSE	0.2000000
+														
+Rejection:	TRUE	0.5200000		Rejection:	TRUE	0.1120000		Rejection:	TRUE	0.9800000	Rejection:	TRUE	0.7840000
+	FALSE	0.4800000			FALSE	0.8880000			FALSE	0.0200000			FALSE	0.2160000
+														
+Sample Size:	100			Sample Size:	500			Sample Size:	500			Sample Size:	500	
+														
+Absolute Difference:	TRUE	0.02		Absolute Difference:	TRUE	0.012		Absolute Difference:	TRUE	0.01	Absolute Difference:	TRUE	0.016
+	FALSE	0.02			FALSE	0.012			FALSE	0.01			FALSE	0.016
+														
+														
+Query Variable:	C													
+				Query Variable:	S			Query Variable:	W			Query Variable:	R	
+Evidence Variable:	S= TRUE													
+	R = TRUE			Evidence Variable:	R= TRUE			Evidence Variable:	C= TRUE			Evidence Variable:	S= TRUE	
+					W= FALSE				S= FALSE				C= FALSE	
+Enumeration:	TRUE	0.5000000												
+	FALSE	0.5000000		Enumeration:	TRUE	0.1000000		Enumeration:	TRUE	0.9900000		Enumeration:	TRUE	0.8000000
+					FALSE	0.9000000			FALSE	0.0100000			FALSE	0.2000000
+Rejection:	TRUE	0.5110000												
+	FALSE	0.4890000		Rejection:	TRUE	0.1020000		Rejection:	TRUE	0.9920000		Rejection:	TRUE	0.8060000
+					FALSE	0.8980000			FALSE	0.0080000			FALSE	0.1940000
+Sample Size:	1000													
+				Sample Size:	1000			Sample Size:	500			Sample Size:	1000	
+Absolute Difference:	TRUE	0.011												
+	FALSE	0.011		Absolute Difference:	TRUE	0.002		Absolute Difference:	TRUE	0.002		Absolute Difference:	TRUE	0.006
+					FALSE	0.002			FALSE	0.002			FALSE	0.006
+														
+Query Variable:	C													
+														
+Evidence Variable:	S= TRUE													
+	R = TRUE													
+														
+Enumeration:	TRUE	0.5000000												
+	FALSE	0.5000000												
+														
+Rejection:	TRUE	0.4920000												
+	FALSE	0.5080000												
+														
+Sample Size:	1000													
+														
+Absolute Difference:	TRUE	0.008												
+	FALSE	0.008	
